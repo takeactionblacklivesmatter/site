@@ -150,6 +150,7 @@ hr {
   line-height: 6vh;
   margin-left: 10vw;
   margin-right: 10vw;
+  text-align: justify;
 }
 
 /*Take Action Page Styles*/
@@ -295,7 +296,7 @@ hr {
   color: white;
   text-align: center;
   letter-spacing: 1px;
-  padding-top: 15vh;
+  padding-top: 25vh;
 }
 #petition-container #policytitle {
   padding-top: 10vh;
@@ -406,6 +407,7 @@ hr {
   #purpose p {
     font-size: 3vw;
     font-family: "Montserrat", sans-serif;
+    text-align: justify;
   }
 
   #takeactiondescription {
