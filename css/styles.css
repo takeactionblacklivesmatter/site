@@ -350,7 +350,7 @@ hr {
 }
 
 /*Responsive Mobile Styles*/
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
   .row {
     display: block;
   }
