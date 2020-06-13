@@ -1,0 +1,459 @@
+$mobile: 800px
+
+/*Structure Styles*/
+html
+    font-size: 100%
+    scroll-behavior: smooth
+
+body
+    margin: 0
+    background-color: #212121
+
+.row
+    display: flex
+
+.block
+    display: block
+
+a
+    text-decoration: none
+
+img
+    border: 3px solid white
+
+#nav-bar
+    background-color: #0f0f0f
+    position: fixed
+    transition-duration: 500ms
+    width: 100%
+    z-index: 1
+    .logo
+        padding: 1vw
+        padding-left: 3vw
+        border: none
+    .links
+        padding-left: 55vw
+        .nav-link
+            text-decoration: none
+            color: white
+            font-family: "Montserrat", sans-serif
+            font-style: none
+            font-size: 0.5vw
+            transition-duration: 500ms
+            .nav-text
+                padding-top: 3.5vh
+                padding-bottom: 3.5vh
+                padding-left: 3vw
+                padding-right: 3vw
+        .nav-link:hover
+            background-color: black
+            color: #ff5e5e
+
+/*Landing Page Styles*/
+#landing
+    background-color: #0f0f0f
+    height: 75%
+    width: 100%
+    text-align: center
+    padding-top: 30vh
+    h1
+        color: white
+        text-align: center
+        font-family: "Montserrat", sans-serif
+        font-size: 4vw
+    h2
+        color: white
+        text-align: center
+        font-family: serif
+        font-size: 1.5vw
+        font-weight: 100
+        font-style: italic
+        padding-left: 20vw
+        padding-right: 20vw
+        line-height: 5vh
+    img
+        transition-duration: 500ms
+    img:hover
+        margin-top: 10px
+        cursor: pointer
+
+#stats1
+    width: 90%
+    margin: 5vw
+    #stats-title
+        font-family: "Montserrat", sans-serif
+        color: white
+        text-align: center
+        letter-spacing: 1px
+    .row
+        padding-top: 8vh
+        .chart-container
+            width: 30%
+            .chart
+                box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19)
+                padding: 5vw
+        p
+            color: white
+            font-size: 1vw
+            font-family: "Montserrat", sans-serif
+            width: 35%
+            padding-left: 23vw
+            line-height: 6vh
+            text-align: justify
+
+hr
+    background-color: rgba(75, 75, 75, 1)
+    height: 1px
+    border-width: 0
+    width: 80%
+    margin-top: 10vh
+    margin-bottom: 10vh
+
+#purpose
+    width: 90%
+    margin: 5vw
+    margin-top: 15vh
+    #purpose-title
+        font-family: "Montserrat", sans-serif
+        color: white
+        text-align: center
+        letter-spacing: 1px
+    p
+        color: white
+        font-size: 1vw
+        font-family: "Montserrat", sans-serif
+        line-height: 6vh
+        margin-left: 10vw
+        margin-right: 10vw
+
+/*Take Action Page Styles*/
+#takeactiondescription
+    margin-top: 23vh
+    width: 100%
+    h1
+        font-family: "Montserrat", sans-serif
+        color: white
+        text-align: center
+        letter-spacing: 1px
+    p
+        color: white
+        font-size: 1vw
+        font-family: "Montserrat", sans-serif
+        line-height: 6vh
+        margin-left: 15vw
+        margin-right: 15vw
+        margin-top: 3vh
+        text-align: justify
+
+#takeaction
+    .container
+        margin: 5vw
+        margin-top: 0
+        a
+            transition-duration: 500ms
+            .card
+                box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19)
+                padding: 3vw
+                filter: grayscale(100%)
+                margin: 3vw
+                img
+                    width: 100%
+                h1
+                    color: white
+                    font-size: 1vw
+                    font-family: "Montserrat", sans-serif
+                    text-align: center
+                    margin-bottom: 5vh
+            .card:hover
+                box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4)
+
+/*Education Page Styles*/
+#educationdescription
+    margin-top: 23vh
+    width: 100%
+    h1
+        font-family: "Montserrat", sans-serif
+        color: white
+        text-align: center
+        letter-spacing: 1px
+    p
+        color: white
+        font-size: 1vw
+        font-family: "Montserrat", sans-serif
+        line-height: 6vh
+        margin-left: 15vw
+        margin-right: 15vw
+        margin-top: 3vh
+        text-align: justify
+
+#education
+    .container
+        margin: 5vw
+        margin-top: 0
+        .card
+            box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19)
+            padding: 3vw
+            filter: grayscale(100%)
+            margin: 3vw
+            transition-duration: 500ms
+            img
+                width: 100%
+            h1
+                color: white
+                font-size: 1vw
+                font-family: "Montserrat", sans-serif
+                text-align: center
+                margin-bottom: 5vh
+        .card:hover
+            box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4)
+
+/*Education Page Styles*/
+#donation-container
+    h1
+        font-family: "Montserrat", sans-serif
+        color: white
+        text-align: center
+        letter-spacing: 1px
+        padding-top: 25vh
+    #donation-card-collection
+        margin: 5vw
+        margin-top: 15vh
+        .card
+            box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19)
+            padding: 3vw
+            margin: 3vw
+            transition-duration: 500ms
+            margin-top: 10vh
+            img
+                margin: 2vw
+                width: 150%
+                z-index: 0
+            p
+                color: white
+                font-size: 1vw
+                font-family: "Montserrat", sans-serif
+                margin: auto
+                margin-left: 5vw
+                margin-right: 5vw
+                line-height: 5vh
+                justify-content: center
+                
+        .card:hover
+            box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4)
+
+/*Education Page Styles*/
+#petition-container
+    hr
+        margin-top: 15vh
+    h1
+        font-family: "Montserrat", sans-serif
+        color: white
+        text-align: center
+        letter-spacing: 1px
+        padding-top: 15vh
+    #policytitle
+        padding-top: 10vh
+    #petition-card-collection
+        margin: 5vw
+        margin-top: 15vh
+        .card
+            box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19)
+            padding: 3vw
+            margin: 3vw
+            transition-duration: 500ms
+            margin-top: 10vh
+            h1
+                padding-top: 0
+                font-size: 2vw
+            h2
+                color: white
+                font-size: 1vw
+                font-family: "Montserrat", sans-serif
+                width: 150%
+                text-align: center
+                margin-left: 2vw
+            img
+                margin: 2vw
+                width: 150%
+                z-index: 0
+            p
+                color: white
+                font-size: 1vw
+                font-family: "Montserrat", sans-serif
+                margin: auto
+                margin-left: 15vw
+                margin-right: 5vw
+                line-height: 5vh
+                justify-content: center
+                a
+                    text-decoration: none
+                    color:#3498eb
+                    font-size: 1.5vw
+        .card:hover
+            box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4)
+        
+        .policy
+            p
+                margin-left: 5vw
+
+/*Responsive Mobile Styles*/
+@media only screen and (max-width: $mobile)
+    //Structure Styles
+    .row
+        display: block
+    #nav-bar
+        display: none
+    //Landing Page Styles
+    #landing
+        h1
+            font-size: 5vw
+            margin-left: 15vw
+            margin-right: 15vw
+        h2
+            font-size: 3vw
+    #stats1
+        width: 80%
+        margin: 13vw
+        #stats-title
+            font-family: "Montserrat", sans-serif
+            color: white
+            text-align: center
+            letter-spacing: 1px
+        .row
+            padding-top: 8vh
+            .chart-container
+                width: 80%
+                .chart
+                    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19)
+                    padding: 5vw
+            p
+                color: white
+                font-size: 3vw
+                font-family: "Montserrat", sans-serif
+                width: 80%
+                padding-left: 4vw
+                line-height: 5vh
+                padding-top: 5vh
+                text-align: justify
+    #purpose
+        p
+            font-size: 3vw
+            font-family: "Montserrat", sans-serif
+    //Take Action Page Styles
+    #takeactiondescription
+        margin-top: 15vh
+        width: 100%
+        h1
+            font-size: 5vw
+        p
+            font-size: 3vw
+            margin-left: 15vw
+            margin-right: 15vw
+    #takeaction
+        .container
+            margin: 5vw
+            margin-top: 12vh
+            .card
+                padding: 7vw
+                margin: 6vw
+                margin-top: 8vh
+                img
+                    width: 100%
+                h1
+                    font-size: 3vw
+            .card:hover
+                box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4)
+    //Education Page Styles
+    #educationdescription
+        margin-top: 15vh
+        width: 100%
+        h1
+            font-size: 5vw
+        p
+            font-size: 3vw
+            margin-left: 15vw
+            margin-right: 15vw
+    #education
+        .container
+            margin: 5vw
+            margin-top: 12vh
+            .card
+                padding: 7vw
+                margin: 6vw
+                margin-top: 8vh
+                img
+                    width: 100%
+                h1
+                    font-size: 3vw
+            .card:hover
+                box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4)
+    //Donation Page styles
+    #donation-container
+        h1
+            font-family: "Montserrat", sans-serif
+            color: white
+            text-align: center
+            letter-spacing: 1px
+            padding-top: 15vh
+        #donation-card-collection
+            margin: 5vw
+            margin-top: 15vh
+            .card
+                box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19)
+                padding: 3vw
+                margin: 3vw
+                transition-duration: 500ms
+                margin-top: 10vh
+                img
+                    margin: 4vw
+                    z-index: 0
+                    width: 90%
+                p
+                    color: white
+                    font-size: 3vw
+                    font-family: "Montserrat", sans-serif
+                    margin: auto
+                    margin-left: 5vw
+                    margin-right: 5vw
+                    line-height: 5vh
+                    justify-content: center
+                    margin-top: 5vh
+                    margin-bottom: 5vh
+                    
+            .card:hover
+                box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4)
+    //Petition Page styles
+    #petition-container
+        h1
+            font-family: "Montserrat", sans-serif
+            color: white
+            text-align: center
+            letter-spacing: 1px
+            padding-top: 15vh
+        #petition-card-collection
+            margin: 5vw
+            margin-top: 15vh
+            .card
+                box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19)
+                padding: 3vw
+                margin: 3vw
+                transition-duration: 500ms
+                margin-top: 10vh
+                img
+                    margin: 4vw
+                    z-index: 0
+                    width: 90%
+                p
+                    color: white
+                    font-size: 3vw
+                    font-family: "Montserrat", sans-serif
+                    margin: auto
+                    margin-left: 5vw
+                    margin-right: 5vw
+                    line-height: 5vh
+                    justify-content: center
+                    margin-top: 5vh
+                    margin-bottom: 5vh
+                    
+            .card:hover
+                box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4)
