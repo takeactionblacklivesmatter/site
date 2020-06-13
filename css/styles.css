@@ -191,7 +191,7 @@ hr {
 #takeaction .container a .card img {
   width: 100%;
 }
-#takeaction .container a .card h1 {
+#takeaction .container a .card h2 {
   color: white;
   font-size: 1vw;
   font-family: "Montserrat", sans-serif;
@@ -362,7 +362,7 @@ hr {
   }
 
   #landing h1 {
-    font-size: 5vw;
+    font-size: 7vw;
     margin-left: 15vw;
     margin-right: 15vw;
   }
@@ -410,38 +410,6 @@ hr {
     text-align: justify;
   }
 
-  #takeactiondescription {
-    margin-top: 15vh;
-    width: 100%;
-  }
-  #takeactiondescription h1 {
-    font-size: 5vw;
-  }
-  #takeactiondescription p {
-    font-size: 3vw;
-    margin-left: 15vw;
-    margin-right: 15vw;
-  }
-
-  #takeaction .container {
-    margin: 5vw;
-    margin-top: 12vh;
-  }
-  #takeaction .container .card {
-    padding: 7vw;
-    margin: 6vw;
-    margin-top: 8vh;
-  }
-  #takeaction .container .card img {
-    width: 100%;
-  }
-  #takeaction .container .card h1 {
-    font-size: 3vw;
-  }
-  #takeaction .container .card:hover {
-    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4);
-  }
-
   #educationdescription {
     margin-top: 15vh;
     width: 100%;
@@ -468,7 +436,7 @@ hr {
     width: 100%;
   }
   #education .container .card h1 {
-    font-size: 3vw;
+    font-size: 5vw;
   }
   #education .container .card:hover {
     box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4);
@@ -480,6 +448,7 @@ hr {
     text-align: center;
     letter-spacing: 1px;
     padding-top: 15vh;
+    font-size: 8vw;
   }
   #donation-container #donation-card-collection {
     margin: 5vw;
@@ -499,7 +468,7 @@ hr {
   }
   #donation-container #donation-card-collection .card p {
     color: white;
-    font-size: 3vw;
+    font-size: 1.5vw;
     font-family: "Montserrat", sans-serif;
     margin: auto;
     margin-left: 5vw;
@@ -508,17 +477,22 @@ hr {
     justify-content: center;
     margin-top: 5vh;
     margin-bottom: 5vh;
+    text-align: center;
   }
   #donation-container #donation-card-collection .card:hover {
     box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4);
   }
 
+  #petition-container {
+    width: 130%;
+  }
   #petition-container h1 {
     font-family: "Montserrat", sans-serif;
     color: white;
     text-align: center;
     letter-spacing: 1px;
     padding-top: 15vh;
+    font-size: 8vw;
   }
   #petition-container #petition-card-collection {
     margin: 5vw;
@@ -535,6 +509,7 @@ hr {
     margin: 4vw;
     z-index: 0;
     width: 90%;
+    height: 60%;
   }
   #petition-container #petition-card-collection .card p {
     color: white;
@@ -543,12 +518,60 @@ hr {
     margin: auto;
     margin-left: 5vw;
     margin-right: 5vw;
-    line-height: 5vh;
+    line-height: 7vh;
     justify-content: center;
     margin-top: 5vh;
     margin-bottom: 5vh;
   }
+  #petition-container #petition-card-collection .card p a {
+    text-decoration: none;
+    color: #3498eb;
+    font-size: 2.5vw;
+  }
+  #petition-container #petition-card-collection .card h1 {
+    font-size: 8vw;
+  }
+  #petition-container #petition-card-collection .card h2 {
+    color: white;
+    margin: 0;
+    font-size: 8vw;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    width: 100%;
+  }
   #petition-container #petition-card-collection .card:hover {
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4);
+  }
+
+  #takeactiondescription {
+    margin-top: 15vh;
+    width: 100%;
+  }
+  #takeactiondescription h1 {
+    font-size: 5vw;
+  }
+  #takeactiondescription p {
+    font-size: 1.5vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+
+  #takeaction .container {
+    margin: 5vw;
+    margin-top: 12vh;
+  }
+  #takeaction .container .card {
+    padding: 7vw;
+    margin: 6vw;
+    margin-top: 8vh;
+  }
+  #takeaction .container .card img {
+    width: 100%;
+  }
+  #takeaction .container .card h2 {
+    font-size: 5vw !important;
+  }
+  #takeaction .container .card:hover {
     box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4);
   }
 }
