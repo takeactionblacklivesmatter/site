@@ -41,6 +41,7 @@ img {
   background-color: black;
   overflow-x: hidden;
   transition: 0.5s;
+  display: none;
 }
 
 .overlay-content {
@@ -592,6 +593,10 @@ hr {
 /*Responsive Mobile Styles*/
 @media (max-width: 1000px) {
   .row {
+    display: block;
+  }
+
+  .overlay {
     display: block;
   }
 
