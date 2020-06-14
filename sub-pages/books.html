@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <!--Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <!--Links-->
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    </head>
+    <body>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <div id="mobile-nav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <ul class="links-other3">
+                    <li class="navlink"><a class="active" href="../index.html">HOME</a></li>
+                    <li class="navlink"><a href="../takaction.html">TAKE ACTION</a></li>
+                    <li class="navlink"><a href="../education.html">EDUCATION</a></li>
+                </ul>
+            </div>
+        </div>
+        <span id="burger-other2" style="cursor:pointer" onclick="openNav()">&#9776;</span>
+        <div class="row" id="nav-bar">
+            <img data-aos="fade-right" class="logo" src="../assets/logo.png" width="50px" height="60px"/>
+            <div data-aos="fade-left" class="links row">
+                <a class="nav-link" href="../index.html"><h1 class="nav-text">HOME</h1></a>
+                <a class="nav-link" href="../takaction.html"><h1 class="nav-text">TAKE ACTION</h1></a>
+                <a class="nav-link" href="../education.html"><h1 class="nav-text">EDUCATION</h1></a>
+            </div>
+        </div>
+        <div class="row">
+            <div id="book-container">
+                <h1 data-aos="fade-up">BOOKS</h1>
+                <div id="book-card-collection">
+                    <div data-aos="fade-left" class="card row">
+                        <div>
+                            <img src="../assets/skin.jpg"/>
+                            <h2>The Skin We’re In by Desmond Cole</h2>
+                        </div>
+                        <div>
+                            <p>- Canadian author exposes the racist actions of the Toronto police force, “detailing the dozens of times he had been stopped and interrogated under the controversial practice of carding”. Brings focus onto injustices black Canadians face</p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-left" class="card row">
+                        <div>
+                            <img src="../assets/antiracist.jpg"/>
+                            <h2>How To Be An Antiracist by Ibram X. Kendi</h2>
+                        </div>
+                        <div>
+                            <p>- Memoir that focuses on the concept of antiracism and what an antiracist society might look like</p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-left" class="card row">
+                        <div>
+                            <img src="../assets/fragility.jpeg"/>
+                            <h2>White Fragility by Robin DiAngelo</h2>
+                        </div>
+                        <div>
+                            <p>- Explores “counterproductive reactions white people have when their assumptions about race are challenged, and how these reactions maintain racial inequality</p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-left" class="card row">
+                        <div>
+                            <img src="../assets/talk.webp"/>
+                            <h2>So You Want To Talk About Race by Ijeoma Oluo</h2>
+                        </div>
+                        <div>
+                            <p>- Puts on display aspects of white supremacy: police brutality, mass incarceration of African Americans</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <!--Scripts-->
+    <script src="../js/charts.js"></script>
+    <script src="../js/styles.js"></script>
+</html>

@@ -19,10 +19,109 @@ body {
 
 a {
   text-decoration: none;
+  color: #3498eb;
 }
 
 img {
   border: 3px solid white;
+}
+
+#mobile-nav {
+  display: none;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: black;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  margin-left: -10%;
+  text-align: center;
+}
+.overlay-content .navlink {
+  margin-top: 10vh;
+  font-family: "Montserrat", sans-serif;
+}
+.overlay-content .links-other {
+  font-size: 4vw;
+  margin-left: 5vw;
+}
+.overlay-content .links-other2 {
+  font-size: 6vw;
+  margin-left: 5vw;
+}
+.overlay-content .links-other2 .navlink {
+  margin-top: 15vh;
+}
+.overlay-content .links-other3 {
+  font-size: 4.5vw;
+  margin-left: 5vw;
+}
+
+.overlay a {
+  text-decoration: none;
+  font-size: 180%;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 5vh;
+  right: 5vh;
+  font-size: 10vw;
+  color: white;
+}
+
+#burger {
+  color: white;
+  font-size: 2em;
+  margin: 7%;
+  position: fixed;
+  display: block;
+}
+
+#burger-other2 {
+  color: white;
+  font-size: 5em;
+  margin: 6%;
+  margin-top: 7%;
+  position: fixed;
+  display: block;
+}
+
+#burger-other3 {
+  color: white;
+  font-size: 6.5em;
+  margin: 6%;
+  margin-top: 7%;
+  position: fixed;
+  display: block;
+}
+
+#burger-other {
+  color: white;
+  font-size: 5em;
+  position: fixed;
+  display: block;
+  margin-top: -11vh;
+  margin-left: 6vw;
 }
 
 #nav-bar {
@@ -249,7 +348,7 @@ hr {
   box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4);
 }
 
-/*Education Page Styles*/
+/*Donation Page Styles*/
 #donation-container h1 {
   font-family: "Montserrat", sans-serif;
   color: white;
@@ -287,7 +386,7 @@ hr {
   box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4);
 }
 
-/*Education Page Styles*/
+/*Petition Page Styles*/
 #petition-container hr {
   margin-top: 15vh;
 }
@@ -351,9 +450,152 @@ hr {
   margin-left: 5vw;
 }
 
+/*Movie/Film Page Styles*/
+#movie-container h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 25vh;
+}
+#movie-container #movie-card-collection {
+  margin: 5vw;
+  margin-top: 15vh;
+}
+#movie-container #movie-card-collection .card {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 3vw;
+  margin: 3vw;
+  transition-duration: 500ms;
+  margin-top: 10vh;
+}
+#movie-container #movie-card-collection .card h1 {
+  padding-top: 0;
+  font-size: 2vw;
+}
+#movie-container #movie-card-collection .card h2 {
+  color: white;
+  font-size: 1vw;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  text-align: center;
+}
+#movie-container #movie-card-collection .card img {
+  margin: 2vw;
+  width: 20vw;
+  z-index: 0;
+}
+#movie-container #movie-card-collection .card p {
+  color: white;
+  font-size: 1vw;
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  margin-left: 10vw;
+  margin-right: 5vw;
+  line-height: 5vh;
+  justify-content: center;
+  margin-top: 5vh;
+}
+#movie-container #movie-card-collection .card p a {
+  text-decoration: none;
+  color: #3498eb;
+  font-size: 1.5vw;
+}
+#movie-container #movie-card-collection .card:hover {
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4);
+}
+#movie-container #movie-card-collection .policy p {
+  margin-left: 5vw;
+}
+
+/*Book Page Styles*/
+#book-container h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 25vh;
+}
+#book-container #book-card-collection {
+  margin: 5vw;
+  margin-top: 15vh;
+}
+#book-container #book-card-collection .card {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 3vw;
+  margin: 3vw;
+  transition-duration: 500ms;
+  margin-top: 10vh;
+}
+#book-container #book-card-collection .card h1 {
+  padding-top: 0;
+  font-size: 2vw;
+}
+#book-container #book-card-collection .card h2 {
+  color: white;
+  font-size: 1vw;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  text-align: center;
+}
+#book-container #book-card-collection .card img {
+  margin: 2vw;
+  width: 20vw;
+  z-index: 0;
+}
+#book-container #book-card-collection .card p {
+  color: white;
+  font-size: 1vw;
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  line-height: 5vh;
+  margin-top: 8vh;
+}
+#book-container #book-card-collection .card:hover {
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4);
+}
+#book-container #book-card-collection .policy p {
+  margin-left: 5vw;
+}
+
+/*Podcast Page Styles*/
+#podcast-container h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 25vh;
+}
+#podcast-container div {
+  margin-top: 10vh;
+  padding-bottom: 10vh;
+}
+#podcast-container div p {
+  color: white;
+  font-size: 1vw;
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  margin-left: 10vw;
+  margin-right: 5vw;
+  line-height: 5vh;
+  justify-content: center;
+  margin-top: 5vh;
+}
+#podcast-container div p a {
+  text-decoration: none;
+  color: #3498eb;
+  font-size: 1.3vw;
+}
+
 /*Responsive Mobile Styles*/
 @media (max-width: 1000px) {
   .row {
+    display: block;
+  }
+
+  #mobile-nav {
     display: block;
   }
 
@@ -367,7 +609,7 @@ hr {
     margin-right: 15vw;
   }
   #landing h2 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   #landing img {
     width: 20%;
@@ -395,17 +637,17 @@ hr {
   }
   #stats1 .row p {
     color: white;
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-family: "Montserrat", sans-serif;
     width: 80%;
     padding-left: 4vw;
     line-height: 5vh;
     padding-top: 5vh;
-    text-align: justify;
+    text-align: justfy;
   }
 
   #purpose p {
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-family: "Montserrat", sans-serif;
     text-align: justify;
   }
@@ -418,7 +660,7 @@ hr {
     font-size: 5vw;
   }
   #educationdescription p {
-    font-size: 3vw;
+    font-size: 1.4vw;
     margin-left: 15vw;
     margin-right: 15vw;
   }
@@ -452,7 +694,7 @@ hr {
   }
   #donation-container #donation-card-collection {
     margin: 5vw;
-    margin-top: 15vh;
+    margin-top: 5vh;
   }
   #donation-container #donation-card-collection .card {
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
@@ -468,7 +710,7 @@ hr {
   }
   #donation-container #donation-card-collection .card p {
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     font-family: "Montserrat", sans-serif;
     margin: auto;
     margin-left: 5vw;
@@ -477,7 +719,7 @@ hr {
     justify-content: center;
     margin-top: 5vh;
     margin-bottom: 5vh;
-    text-align: center;
+    text-align: justify;
   }
   #donation-container #donation-card-collection .card:hover {
     box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4);
@@ -491,8 +733,10 @@ hr {
     color: white;
     text-align: center;
     letter-spacing: 1px;
-    padding-top: 15vh;
+    padding-top: 25vh;
     font-size: 8vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
   #petition-container #petition-card-collection {
     margin: 5vw;
@@ -522,6 +766,7 @@ hr {
     justify-content: center;
     margin-top: 5vh;
     margin-bottom: 5vh;
+    text-align: justify;
   }
   #petition-container #petition-card-collection .card p a {
     text-decoration: none;
@@ -549,9 +794,11 @@ hr {
   }
   #takeactiondescription h1 {
     font-size: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
   #takeactiondescription p {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     margin-left: 15vw;
     margin-right: 15vw;
   }
@@ -563,7 +810,7 @@ hr {
   #takeaction .container .card {
     padding: 7vw;
     margin: 6vw;
-    margin-top: 8vh;
+    margin-bottom: 8vh;
   }
   #takeaction .container .card img {
     width: 100%;
@@ -573,6 +820,144 @@ hr {
   }
   #takeaction .container .card:hover {
     box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4);
+  }
+
+  #movie-container {
+    width: 100%;
+  }
+  #movie-container h1 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 15vh;
+    font-size: 8vw;
+  }
+  #movie-container #movie-card-collection {
+    margin: 5vw;
+    margin-top: 15vh;
+  }
+  #movie-container #movie-card-collection .card {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 3vw;
+    margin: 3vw;
+    transition-duration: 500ms;
+    margin-top: 10vh;
+  }
+  #movie-container #movie-card-collection .card img {
+    margin: 4vw;
+    z-index: 0;
+    width: 88%;
+    height: 40%;
+  }
+  #movie-container #movie-card-collection .card p {
+    color: white;
+    font-size: 1.4vw;
+    font-family: "Montserrat", sans-serif;
+    margin: auto;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    line-height: 7vh;
+    justify-content: center;
+  }
+  #movie-container #movie-card-collection .card h1 {
+    font-size: 8vw;
+  }
+  #movie-container #movie-card-collection .card h2 {
+    color: white;
+    margin: 0;
+    font-size: 8vw;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5vh;
+  }
+  #movie-container #movie-card-collection .card:hover {
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4);
+  }
+
+  #book-container {
+    width: 100%;
+  }
+  #book-container h1 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 15vh;
+    font-size: 8vw;
+  }
+  #book-container #book-card-collection {
+    margin: 5vw;
+    margin-top: 15vh;
+  }
+  #book-container #book-card-collection .card {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 3vw;
+    margin: 3vw;
+    transition-duration: 500ms;
+    margin-top: 10vh;
+  }
+  #book-container #book-card-collection .card img {
+    margin: 4vw;
+    z-index: 0;
+    width: 88%;
+    height: 30%;
+  }
+  #book-container #book-card-collection .card p {
+    color: white;
+    font-size: 1.4vw;
+    font-family: "Montserrat", sans-serif;
+    margin: auto;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    line-height: 7vh;
+    justify-content: center;
+  }
+  #book-container #book-card-collection .card h1 {
+    font-size: 8vw;
+  }
+  #book-container #book-card-collection .card h2 {
+    color: white;
+    margin: 0;
+    font-size: 8vw;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5vh;
+  }
+  #book-container #book-card-collection .card:hover {
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4);
+  }
+
+  #podcast-container h1 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 15vh;
+    font-size: 8vw;
+  }
+  #podcast-container div {
+    margin-top: 5vh;
+    padding: 5vw;
+    padding-bottom: 10vh;
+  }
+  #podcast-container div p {
+    color: white;
+    font-size: 1vw;
+    font-family: "Montserrat", sans-serif;
+    margin: auto;
+    margin-left: 10vw;
+    margin-right: 5vw;
+    line-height: 5vh;
+    justify-content: center;
+    margin-top: 5vh;
+  }
+  #podcast-container div p a {
+    text-decoration: none;
+    color: #3498eb;
+    font-size: 4vw;
   }
 }
 

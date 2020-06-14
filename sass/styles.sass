@@ -17,9 +17,93 @@ body
 
 a
     text-decoration: none
+    color:#3498eb
 
 img
     border: 3px solid white
+
+#mobile-nav
+    display: none
+
+.overlay
+    height: 100%
+    width: 0
+    position: fixed
+    z-index: 10
+    top: 0
+    left: 0
+    background-color: rgb(0,0,0)
+    background-color: rgba(0,0,0, 1)
+    overflow-x: hidden
+    transition: 0.5s
+
+.overlay-content
+    position: relative
+    top: 10%
+    margin-left: -10%
+    text-align: center
+    .navlink
+        margin-top: 10vh
+        font-family: "Montserrat", sans-serif
+    .links-other
+        font-size: 4vw
+        margin-left: 5vw
+    .links-other2
+        font-size: 6vw
+        margin-left: 5vw
+        .navlink
+            margin-top: 15vh
+    .links-other3
+        font-size: 4.5vw
+        margin-left: 5vw
+
+.overlay a
+    text-decoration: none
+    font-size: 180%
+    color: white
+    display: block
+    transition: 0.3s
+
+.overlay a:hover, .overlay a:focus
+    color: #f1f1f1
+
+.overlay .closebtn 
+    position: absolute
+    top: 5vh
+    right: 5vh
+    font-size: 10vw
+    color: white
+
+#burger
+    color: white
+    font-size: 2em
+    margin: 7%
+    position: fixed
+    display: block
+
+#burger-other2
+    color: white
+    font-size: 5em
+    margin: 6%
+    margin-top: 7%
+    position: fixed
+    display: block
+
+#burger-other3
+    color: white
+    font-size: 6.5em
+    margin: 6%
+    margin-top: 7%
+    position: fixed
+    display: block
+
+#burger-other
+    color: white
+    font-size: 5em
+    position: fixed
+    display: block
+    margin-top: -11vh
+    margin-left: 6vw
 
 #nav-bar
     background-color: #0f0f0f
@@ -209,7 +293,7 @@ hr
         .card:hover
             box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4)
 
-/*Education Page Styles*/
+/*Donation Page Styles*/
 #donation-container
     h1
         font-family: "Montserrat", sans-serif
@@ -243,7 +327,7 @@ hr
         .card:hover
             box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4)
 
-/*Education Page Styles*/
+/*Petition Page Styles*/
 #petition-container
     hr
         margin-top: 15vh
@@ -298,10 +382,135 @@ hr
             p
                 margin-left: 5vw
 
+/*Movie/Film Page Styles*/
+#movie-container
+    h1
+        font-family: "Montserrat", sans-serif
+        color: white
+        text-align: center
+        letter-spacing: 1px
+        padding-top: 25vh
+    #movie-card-collection
+        margin: 5vw
+        margin-top: 15vh
+        .card
+            box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19)
+            padding: 3vw
+            margin: 3vw
+            transition-duration: 500ms
+            margin-top: 10vh
+            h1
+                padding-top: 0
+                font-size: 2vw
+            h2
+                color: white
+                font-size: 1vw
+                font-family: "Montserrat", sans-serif
+                width: 100%
+                text-align: center
+            img
+                margin: 2vw
+                width: 20vw
+                z-index: 0
+            p
+                color: white
+                font-size: 1vw
+                font-family: "Montserrat", sans-serif
+                margin: auto
+                margin-left: 10vw
+                margin-right: 5vw
+                line-height: 5vh
+                justify-content: center
+                margin-top: 5vh
+                a
+                    text-decoration: none
+                    color:#3498eb
+                    font-size: 1.5vw
+        .card:hover
+            box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4)
+        
+        .policy
+            p
+                margin-left: 5vw
+
+/*Book Page Styles*/
+#book-container
+    h1
+        font-family: "Montserrat", sans-serif
+        color: white
+        text-align: center
+        letter-spacing: 1px
+        padding-top: 25vh
+    #book-card-collection
+        margin: 5vw
+        margin-top: 15vh
+        .card
+            box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19)
+            padding: 3vw
+            margin: 3vw
+            transition-duration: 500ms
+            margin-top: 10vh
+            h1
+                padding-top: 0
+                font-size: 2vw
+            h2
+                color: white
+                font-size: 1vw
+                font-family: "Montserrat", sans-serif
+                width: 100%
+                text-align: center
+            img
+                margin: 2vw
+                width: 20vw
+                z-index: 0
+            p
+                color: white
+                font-size: 1vw
+                font-family: "Montserrat", sans-serif
+                margin: auto
+                margin-left: 5vw
+                margin-right: 5vw
+                line-height: 5vh
+                margin-top: 8vh
+        .card:hover
+            box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4)
+        
+        .policy
+            p
+                margin-left: 5vw
+
+/*Podcast Page Styles*/
+#podcast-container
+    h1
+        font-family: "Montserrat", sans-serif
+        color: white
+        text-align: center
+        letter-spacing: 1px
+        padding-top: 25vh
+    div
+        margin-top: 10vh
+        padding-bottom: 10vh
+        p
+            color: white
+            font-size: 1vw
+            font-family: "Montserrat", sans-serif
+            margin: auto
+            margin-left: 10vw
+            margin-right: 5vw
+            line-height: 5vh
+            justify-content: center
+            margin-top: 5vh
+            a
+                text-decoration: none
+                color:#3498eb
+                font-size: 1.3vw
+
 /*Responsive Mobile Styles*/
 @media (max-width: $mobile)
     //Structure Styles
     .row
+        display: block
+    #mobile-nav
         display: block
     #nav-bar
         display: none
@@ -312,7 +521,7 @@ hr
             margin-left: 15vw
             margin-right: 15vw
         h2
-            font-size: 3vw
+            font-size: 4vw
         img
             width: 20%
     #stats1
@@ -332,16 +541,16 @@ hr
                     padding: 5vw
             p
                 color: white
-                font-size: 3vw
+                font-size: 3.5vw
                 font-family: "Montserrat", sans-serif
                 width: 80%
                 padding-left: 4vw
                 line-height: 5vh
                 padding-top: 5vh
-                text-align: justify
+                text-align: justfy
     #purpose
         p
-            font-size: 3vw
+            font-size: 3.5vw
             font-family: "Montserrat", sans-serif
             text-align: justify
     //Education Page Styles
@@ -351,7 +560,7 @@ hr
         h1
             font-size: 5vw
         p
-            font-size: 3vw
+            font-size: 1.4vw
             margin-left: 15vw
             margin-right: 15vw
     #education
@@ -379,7 +588,7 @@ hr
             font-size: 8vw
         #donation-card-collection
             margin: 5vw
-            margin-top: 15vh
+            margin-top: 5vh
             .card
                 box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19)
                 padding: 3vw
@@ -392,7 +601,7 @@ hr
                     width: 90%
                 p
                     color: white
-                    font-size: 1.5vw
+                    font-size: 1.4vw
                     font-family: "Montserrat", sans-serif
                     margin: auto
                     margin-left: 5vw
@@ -401,7 +610,7 @@ hr
                     justify-content: center
                     margin-top: 5vh
                     margin-bottom: 5vh
-                    text-align: center
+                    text-align: justify
                     
             .card:hover
                 box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4)
@@ -413,8 +622,10 @@ hr
             color: white
             text-align: center
             letter-spacing: 1px
-            padding-top: 15vh
+            padding-top: 25vh
             font-size: 8vw
+            margin-left: 10vw
+            margin-right: 10vw
         #petition-card-collection
             margin: 5vw
             margin-top: 15vh
@@ -440,6 +651,7 @@ hr
                     justify-content: center
                     margin-top: 5vh
                     margin-bottom: 5vh
+                    text-align: justify
                     a
                         text-decoration: none
                         color:#3498eb
@@ -462,8 +674,10 @@ hr
         width: 100%
         h1
             font-size: 5vw
+            margin-left: 10vw
+            margin-right: 10vw
         p
-            font-size: 1.5vw
+            font-size: 1.4vw
             margin-left: 15vw
             margin-right: 15vw
     #takeaction
@@ -473,10 +687,129 @@ hr
             .card
                 padding: 7vw
                 margin: 6vw
-                margin-top: 8vh
+                margin-bottom: 8vh
                 img
                     width: 100%
                 h2
                     font-size: 5vw !important
             .card:hover
                 box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4)
+    //Movies Page Styles
+    #movie-container
+        width: 100%
+        h1
+            font-family: "Montserrat", sans-serif
+            color: white
+            text-align: center
+            letter-spacing: 1px
+            padding-top: 15vh
+            font-size: 8vw
+        #movie-card-collection
+            margin: 5vw
+            margin-top: 15vh
+            .card
+                box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19)
+                padding: 3vw
+                margin: 3vw
+                transition-duration: 500ms
+                margin-top: 10vh
+                img
+                    margin: 4vw
+                    z-index: 0
+                    width: 88%
+                    height: 40%
+                p
+                    color: white
+                    font-size: 1.4vw
+                    font-family: "Montserrat", sans-serif
+                    margin: auto
+                    margin-left: 5vw
+                    margin-right: 5vw
+                    line-height: 7vh
+                    justify-content: center
+                h1
+                    font-size: 8vw
+                h2
+                    color: white
+                    margin: 0
+                    font-size: 8vw
+                    font-family: "Montserrat", sans-serif
+                    text-align: center
+                    width: 100%
+                    margin-bottom: 5vh
+                    
+            .card:hover
+                box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4)
+    //Book Page Styles
+    #book-container
+        width: 100%
+        h1
+            font-family: "Montserrat", sans-serif
+            color: white
+            text-align: center
+            letter-spacing: 1px
+            padding-top: 15vh
+            font-size: 8vw
+        #book-card-collection
+            margin: 5vw
+            margin-top: 15vh
+            .card
+                box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19)
+                padding: 3vw
+                margin: 3vw
+                transition-duration: 500ms
+                margin-top: 10vh
+                img
+                    margin: 4vw
+                    z-index: 0
+                    width: 88%
+                    height: 30%
+                p
+                    color: white
+                    font-size: 1.4vw
+                    font-family: "Montserrat", sans-serif
+                    margin: auto
+                    margin-left: 5vw
+                    margin-right: 5vw
+                    line-height: 7vh
+                    justify-content: center
+                h1
+                    font-size: 8vw
+                h2
+                    color: white
+                    margin: 0
+                    font-size: 8vw
+                    font-family: "Montserrat", sans-serif
+                    text-align: center
+                    width: 100%
+                    margin-bottom: 5vh
+                    
+            .card:hover
+                box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.4), 0 20px 40px 0 rgba(0, 0, 0, 0.4)
+    //Podcast Page Styles
+    #podcast-container
+        h1
+            font-family: "Montserrat", sans-serif
+            color: white
+            text-align: center
+            letter-spacing: 1px
+            padding-top: 15vh
+            font-size: 8vw
+        div
+            margin-top: 5vh
+            padding: 5vw
+            padding-bottom: 10vh
+            p
+                color: white
+                font-size: 1vw
+                font-family: "Montserrat", sans-serif
+                margin: auto
+                margin-left: 10vw
+                margin-right: 5vw
+                line-height: 5vh
+                justify-content: center
+                margin-top: 5vh
+                a
+                    text-decoration: none
+                    color:#3498eb
+                    font-size: 4vw

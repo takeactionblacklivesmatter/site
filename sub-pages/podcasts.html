@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <!--Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <!--Links-->
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    </head>
+    <body>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <div id="mobile-nav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <ul class="links-other3">
+                    <li class="navlink"><a class="active" href="../index.html">HOME</a></li>
+                    <li class="navlink"><a href="../takaction.html">TAKE ACTION</a></li>
+                    <li class="navlink"><a href="../education.html">EDUCATION</a></li>
+                </ul>
+            </div>
+        </div>
+        <span id="burger-other2" style="cursor:pointer" onclick="openNav()">&#9776;</span>
+        <div class="row" id="nav-bar">
+            <img data-aos="fade-right" class="logo" src="../assets/logo.png" width="50px" height="60px"/>
+            <div data-aos="fade-left" class="links row">
+                <a class="nav-link" href="../index.html"><h1 class="nav-text">HOME</h1></a>
+                <a class="nav-link" href="../takaction.html"><h1 class="nav-text">TAKE ACTION</h1></a>
+                <a class="nav-link" href="../education.html"><h1 class="nav-text">EDUCATION</h1></a>
+            </div>
+        </div>
+        <div class="row">
+            <div id="podcast-container">
+                <h1 data-aos="fade-up">PODCASTS</h1>
+                <div data-aos="fade-up">
+                    <p><a href="https://www.nytimes.com/interactive/2019/08/14/magazine/1619-america-slavery.html">1619 - New York Times podcast that “examines long shadow of American slavery”</a></p>
+                    <p><a href="https://www.npr.org/sections/codeswitch/484785516/the-code-switch-podcast">Code Switch - Race and culture podcast by NPR (ongoing)</a></p>
+                    <p><a href="https://lynchinginamerica.eji.org/">Lyching in America - America’s history of racial injustice</a></p>
+                    <p><a href="https://www.theglobeandmail.com/news/national/colour-code-podcast-race-in-canada/article31494658/">Colour Code - Podcast by The Globe and Mail about the role of race in Canada</a></p>
+                    <p><a href="https://www.sceneonradio.org/seeing-white/">Scene on Radio Podcast Series: Seeing White - explores the “history and meaning of whiteness”</a></p>
+                    <p><a href="https://www.showaboutrace.com/">About Race - interracial conversation about racial identity and privilege America</a></p>
+                    <p><a href="https://www.thediversitygap.com/podcast-1">Diversity Gap - podcast that takes stories of people impacted by “diversity, equity, and inclusion initiatives” and uses them to discuss issues of racism and the role of race in society</a></p>
+                </div>
+            </div>
+        </div>
+    </body>
+    <!--Scripts-->
+    <script src="../js/charts.js"></script>
+    <script src="../js/styles.js"></script>
+</html>

@@ -6,6 +6,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
         <!--Links-->
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     </head>
@@ -14,6 +15,17 @@
         <script>
             AOS.init();
         </script>
+        <div id="mobile-nav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <ul class="links">
+                    <li class="navlink"><a class="active" href="./index.html">HOME</a></li>
+                    <li class="navlink"><a href="./takaction.html">TAKE ACTION</a></li>
+                    <li class="navlink"><a href="./education.html">EDUCATION</a></li>
+                </ul>
+            </div>
+        </div>
+        <span id="burger" style="cursor:pointer" onclick="openNav()">&#9776;</span>
         <div class="row" id="nav-bar">
             <a href="./index.html"><img data-aos="fade-right" class="logo" src="./assets/logo.png" width="50px" height="60px"/></a>
             <div data-aos="fade-left" class="links row">

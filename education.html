@@ -5,6 +5,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
         <!--Links-->
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     </head>
@@ -13,6 +14,17 @@
         <script>
             AOS.init();
         </script>
+        <div id="mobile-nav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <ul class="links-other">
+                    <li class="navlink"><a class="active" href="./index.html">HOME</a></li>
+                    <li class="navlink"><a href="./takaction.html">TAKE ACTION</a></li>
+                    <li class="navlink"><a href="">EDUCATION</a></li>
+                </ul>
+            </div>
+        </div>
+        <span id="burger-other" style="cursor:pointer" onclick="openNav()">&#9776;</span>
         <div class="row" id="nav-bar">
             <img data-aos="fade-right" class="logo" src="./assets/logo.png" width="50px" height="60px"/>
             <div data-aos="fade-left" class="links row">
@@ -23,30 +35,29 @@
         </div>
         <div class="row">
             <div id="educationdescription" data-aos="fade-up">
-                <h1>ACTION IS KEY TO REFORM</h1>
-                <p>As of June 9th, 2020, there are 29 million posts under the hashtag #blackouttuesday on Instagram, but only 17 million signatures on the justice petition for George Floyd. There is an obvious disconnect in supporting the cause, and it is time everyone takes real action and educates themselves on the truth. It is not enough to simply support Black Lives Matter and share posts on social media. Look through the sections below to see how you can efficiently contribute to the cause.</p>
+                <h1>EDUCATION IS KEY TO UNDERSTANDING</h1>
+                <p>The Black Lives Matter movement has been asking for the attention of the world for long enough. They have been asking that everyone learns about the racist acts committed against African American for centuries in America, and the laws that continue to discriminate to this day. One cannot truly understand what they suffer from, but educating oneself is the first step to understanding their plight. Learn about these and more by watching films and documentaries, reading books, or listening to educational podcasts. Netflix also has its own <a href="https://www.netflix.com/browse/genre/81299227?so=su">collection of over 40 different films, shows, and documentaries</a> about the black lives matter movement.</p>
             </div>
         </div>
         <hr>
         <div class="row" id="education">
             <div class="row container">
-                <a href>
+                <a href="sub-pages/moviesfilms.html">
                     <div class="card" data-aos="fade-up">
                         <h1>MOVIES/FILMS</h1>
-                        <img src="./assets/takeaction1.jpg"/>
+                        <img src="./assets/movies.jpeg"/>
                     </div>
                 </a>
-                <a href>
+                <a href="sub-pages/books.html">
                     <div class="card" data-aos="fade-up">
                         <h1>BOOKS</h1>
-                        <img src="./assets/takeaction2.jpg"/>
+                        <img src="./assets/books.jpeg" height=50%/>
                     </div>
                 </a>
-                <a href>
+                <a href="sub-pages/podcasts.html">
                     <div class="card" data-aos="fade-up">
-                        <h1>ARTICLES/VIDEOS
-                        </h1>
-                        <img src="./assets/takeaction3.png"/>
+                        <h1>PODCASTS</h1>
+                        <img src="./assets/Podcast.png"/>
                     </div>
                 </a>
             <div>
