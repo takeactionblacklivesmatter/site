@@ -95,7 +95,7 @@ img {
   font-size: 2em;
   margin: 7%;
   position: fixed;
-  display: block;
+  display: none;
 }
 
 #burger-other2 {
@@ -606,6 +606,10 @@ hr {
 
   #nav-bar {
     display: none;
+  }
+
+  #burger {
+    display: block;
   }
 
   #landing h1 {
