@@ -658,7 +658,7 @@ hr {
   }
   #stats1 .row p {
     color: white;
-    font-size: 3.5vw;
+    font-size: 15px;
     font-family: "Montserrat", sans-serif;
     width: 80%;
     padding-left: 4vw;
@@ -668,7 +668,7 @@ hr {
   }
 
   #purpose p {
-    font-size: 3.5vw;
+    font-size: 15px;
     font-family: "Montserrat", sans-serif;
     text-align: justify;
     line-height: 4.5vh;
@@ -682,7 +682,7 @@ hr {
     font-size: 5vw;
   }
   #educationdescription p {
-    font-size: 4vw;
+    font-size: 15px;
     margin-left: 15vw;
     margin-right: 15vw;
     line-height: 4.5vh;
@@ -733,7 +733,7 @@ hr {
   }
   #donation-container #donation-card-collection .card p {
     color: white;
-    font-size: 1.4vw;
+    font-size: 15px;
     font-family: "Montserrat", sans-serif;
     margin: auto;
     margin-left: 5vw;
@@ -780,7 +780,7 @@ hr {
   }
   #petition-container #petition-card-collection .card p {
     color: white;
-    font-size: 3vw;
+    font-size: 15px;
     font-family: "Montserrat", sans-serif;
     margin: auto;
     margin-left: 5vw;
@@ -821,7 +821,7 @@ hr {
     margin-right: 10vw;
   }
   #takeactiondescription p {
-    font-size: 4.5vw;
+    font-size: 15px;
     margin-left: 15vw;
     margin-right: 15vw;
     line-height: 4.5vh;
@@ -876,7 +876,7 @@ hr {
   }
   #movie-container #movie-card-collection .card p {
     color: white;
-    font-size: 1.4vw;
+    font-size: 15px;
     font-family: "Montserrat", sans-serif;
     margin: auto;
     margin-left: 5vw;
@@ -930,7 +930,7 @@ hr {
   }
   #book-container #book-card-collection .card p {
     color: white;
-    font-size: 1.4vw;
+    font-size: 15px;
     font-family: "Montserrat", sans-serif;
     margin: auto;
     margin-left: 5vw;
@@ -969,7 +969,7 @@ hr {
   }
   #podcast-container div p {
     color: white;
-    font-size: 1vw;
+    font-size: 15px;
     font-family: "Montserrat", sans-serif;
     margin: auto;
     margin-left: 10vw;
