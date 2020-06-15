@@ -662,7 +662,7 @@ hr {
     font-family: "Montserrat", sans-serif;
     width: 80%;
     padding-left: 4vw;
-    line-height: 5vh;
+    line-height: 4.5vh;
     padding-top: 5vh;
     text-align: justfy;
   }
@@ -671,6 +671,7 @@ hr {
     font-size: 3.5vw;
     font-family: "Montserrat", sans-serif;
     text-align: justify;
+    line-height: 4.5vh;
   }
 
   #educationdescription {
@@ -684,6 +685,7 @@ hr {
     font-size: 1.4vw;
     margin-left: 15vw;
     margin-right: 15vw;
+    line-height: 4.5vh;
   }
 
   #education .container {
@@ -736,7 +738,7 @@ hr {
     margin: auto;
     margin-left: 5vw;
     margin-right: 5vw;
-    line-height: 5vh;
+    line-height: 4vh;
     justify-content: center;
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -783,7 +785,7 @@ hr {
     margin: auto;
     margin-left: 5vw;
     margin-right: 5vw;
-    line-height: 7vh;
+    line-height: 6vh;
     justify-content: center;
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -822,6 +824,7 @@ hr {
     font-size: 1.4vw;
     margin-left: 15vw;
     margin-right: 15vw;
+    line-height: 4.5vh;
   }
 
   #takeaction .container {
@@ -878,7 +881,7 @@ hr {
     margin: auto;
     margin-left: 5vw;
     margin-right: 5vw;
-    line-height: 7vh;
+    line-height: 5vh;
     justify-content: center;
   }
   #movie-container #movie-card-collection .card h1 {
@@ -932,7 +935,7 @@ hr {
     margin: auto;
     margin-left: 5vw;
     margin-right: 5vw;
-    line-height: 7vh;
+    line-height: 5vh;
     justify-content: center;
   }
   #book-container #book-card-collection .card h1 {
@@ -971,9 +974,9 @@ hr {
     margin: auto;
     margin-left: 10vw;
     margin-right: 5vw;
-    line-height: 5vh;
+    line-height: 4vh;
     justify-content: center;
-    margin-top: 5vh;
+    margin-top: 3vh;
   }
   #podcast-container div p a {
     text-decoration: none;
